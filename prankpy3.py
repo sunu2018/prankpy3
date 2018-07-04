@@ -7,15 +7,15 @@ from multiprocessing import Pool, Process
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pafy, youtube_dl
 botStart = time.time()
-prank = LineClient(authToken='Er3MHvx7IPQUPdp7BpG0.WwjrIJ3eQJbnZu1BDX/GSa.a8tSvqyc1Ppa82Z5qoSKTM5H0in03VBApvcRduU+1JU=')
+prank = LineClient("susu76917@gmail.com","nunu_2018")
 prank.log("Auth Token : " + str(prank.authToken))
 channel = LineChannel(prank)
 prank.log("Channel Access Token : " + str(channel.channelAccessToken))
 #======================
-pb1 = LineClient(authToken='ErhKXoQeaHceA6oawNmb.978lfL9GT68D9OxOVFWTIW.CFXckDOlGOrdbO58dgAuIM8zhKICFsa6h53/+HJsxt4=')
+pb1 = LineClient("bot4nu2018@gmail.com","nunu_kap0647706747")
 pb1.log("Auth Token : " + str(pb1.authToken))
 #======================
-pb2 = LineClient(authToken='EryCF7pblbEg77bGSuYd.ELI6CbrnKUEIy2xmQBwKxq.nq/dg7+Hl1zcu/JxMXeNMUY8Pk1/Rn1b1w4I+GDzn3s=')
+pb2 = LineClient(authToken=("bot5nu2018@gmail.com","nunu_kap0647706747")
 pb2.log("Auth Token : " + str(pb2.authToken))
 #======================
 settingsOpen = codecs.open("prankbots.json","r","utf-8")
@@ -155,7 +155,7 @@ def backupData():
         logError(error)
         return False
 def help():
-    helpMessage = "╭━━╦℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́╦в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́╦━━╮\n┣╦━━━━╩━━━╩━━━━━" + "\n" + \
+    helpMessage = "╭━━╦น้ อ ง สุ╦พี่ นุ╦━━╮\n┣╦━━━━╩━━━╩━━━━━" + "\n" + \
                   "┣╦Nama Bot╦ " + clientProfile.displayName + " ╦" + "\n" + \
                   "┣╦Help" + "\n" + \
                   "┣╦Set" + "\n" + \
@@ -204,7 +204,7 @@ def help():
                   "┣╦Proinvite:on|off" + "\n" + \
                   "┣╦Pro:on|off" + "\n" + \
                   "┣╦Namelock:on|off" + "\n" + \
-                  "┣━━━━━╩━━━╩━━━━━\n┣━╦🇮🇩CREATOR INDONESIA🇮🇩╦━╣\n╰━━╩℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к╩̰̰̈́в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́╩━━╯"
+                  "┣━━━━━╩━━━╩━━━━━\n┣━╦น้ อ ง สุ แ ละ พี่ นุ╦━╣\n╰━━╩℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к╩̰̰̈́в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́╩━━╯"
     return helpMessage
 groupParam = ""
 def SiriGetOut(targ):
