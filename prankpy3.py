@@ -15,7 +15,7 @@ prank.log("Channel Access Token : " + str(channel.channelAccessToken))
 pb1 = LineClient("bot4nu2018@gmail.com","nunu_kap0647706747")
 pb1.log("Auth Token : " + str(pb1.authToken))
 #======================
-pb2 = LineClient(authToken=("bot5nu2018@gmail.com","nunu_kap0647706747")
+pb2 = LineClient("bot5nu2018@gmail.com","nunu_kap0647706747")
 pb2.log("Auth Token : " + str(pb2.authToken))
 #======================
 settingsOpen = codecs.open("prankbots.json","r","utf-8")
@@ -379,13 +379,13 @@ def bot(op):
                             prank.sendContact(to, sender)
                         elif text.lower() == 'add':		
                             prank.sendText(to,"❂•••••••••✧••••••••••❂")
-                            prank.sendContact(to, 'u5818cb4404411c2e2e6e6937d172cca8')
-                            prank.sendContact(to, 'udfaf52176415b46cb445ae2757ec85f3')
-                            prank.sendContact(to, 'u17a086ccff618e754588a1108335867f')
+                            prank.sendContact(to, 'ue32b11986d8e9e5cf70b642cf7ba88ff')
+                            prank.sendContact(to, 'ue0d0a11c7cca781a699ae6f348443625')
+                            prank.sendContact(to, 'u67fd223d284e2e201e8e7fad8d9909b3')
                             prank.sendText(to,"❂•••••••••✧••••••••••❂")
                         elif text.lower() == 'creator':		
                             prank.sendText(to,"❂•••••••••✧••••••••••❂")
-                            prank.sendContact(to, 'u5818cb4404411c2e2e6e6937d172cca8')
+                            prank.sendContact(to, 'ue32b11986d8e9e5cf70b642cf7ba88ff')
                             prank.sendText(to,"❂•••••••••✧••••••••••❂")
                         elif 'fuck1 ' in text.lower():
                            ulti0 = msg.text.replace("fuck1 ","")
