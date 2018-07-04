@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from multiprocessing import Pool, Process
 from humanfriendly import format_timespan, format_size, format_number, format_length
 #import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pafy, youtube_dl
-botStart = time.time()
+#botStart = time.time()
 
 prank = LineClient("susu76917@gmail.com","nunu_2018")
 prank.log("Auth Token : " + str(prank.authToken))
